@@ -1,0 +1,30 @@
+1. :g/WorldWideWeb/s//World Wide Web/g (tidak bisa mengeksekusi services, jadi hanya jawaban langsung)
+2. /Note ==> untuk mencari paragraf
+   5dd  ==> untuk meng-cut 5 baris
+   p ==> mem-paste sesuai tempat cursor
+3. :g/tcp/s//WHATEVER/g
+4. locate dev/null
+5. 1767  mkdir test
+   1768  cd test
+   1777  touch one two three
+   1778  ls
+   1779  ls -1
+   1780  ls -al
+   1781  chmod 777 one two three
+   1782  ls -al
+   1783  ls -1
+   1784  cd test
+   1785  ls -1
+   1786  cd
+   1787  find -perm -002 -ls
+6. 1784  find /usr/share/doc -mtime +300
+   1785  history
+7. 1809  find /usr/share -size +5M -size -10M
+   1810  find /usr/share -size +5M -size -10M -exec cp {} ~/FILES \;  (membuat folder files diluar tmp)
+   1811  cd FILES
+   1812  ls -1
+8. 1802  find FILES -exec cp {} {}.mybackup \;
+   1803  ls -1
+   1804  cd FILES
+   1805  ls -1
+
